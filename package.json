@@ -1,0 +1,12 @@
+{
+  "name": "swarm-key-gen",
+  "version": "1.0.0",
+  "description": "Output random IPFS swarm keys.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "bin":{
+    "swarm-key-gen":"./cli.js"
+  },
+  "author": "Shane Duffy"
+}
