@@ -8,5 +8,5 @@
   "bin":{
     "swarm-key-gen":"./cli.js"
   },
-  "author": "Shane Duffy"
+  "author": "cppshane"
 }
