@@ -1,3 +1,7 @@
-### Usage
+### swarm-key-gen
 
-`swarm-key-gen > swarm.key`
+Generate a swarm key from 32 random bytes.
+
+```
+swarm-key-gen > swarm.key
+```
