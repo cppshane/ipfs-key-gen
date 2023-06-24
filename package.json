@@ -1,12 +1,15 @@
 {
-  "name": "swarm-key-gen",
-  "version": "1.0.0",
-  "description": "Output random IPFS swarm keys.",
+  "name": "ipfs-key-gen",
+  "version": "1.1.0",
+  "description": "Generate keys and secrets for IPFS related activities.",
   "main": "index.js",
-  "scripts": {
+  "type": "module",
+  "scripts": {},
+  "bin": {
+    "ipfs-key-gen": "./cli.js"
   },
-  "bin":{
-    "swarm-key-gen":"./cli.js"
-  },
-  "author": "cppshane"
+  "author": "cppshane",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
 }
