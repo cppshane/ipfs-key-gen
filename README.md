@@ -1,7 +1,13 @@
-### swarm-key-gen
+### ipfs-key-gen
 
-Generate a swarm key from 32 random bytes.
+Generate IPFS related keys.
 
+### IPFS Swarm Key
 ```
-swarm-key-gen > swarm.key
+ipfs-key-gen generate swarm-key > swarm.key
+```
+
+### IPFS Cluster Secret
+```
+ipfs-key-gen generate cluster-secret
 ```
